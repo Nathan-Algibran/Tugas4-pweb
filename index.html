@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangkaian Lampu Nathan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Rangkaian Lampu</h1>
+
+<div class="container">
+    <div class="section-title">Rangkaian 1</div>
+
+    <div class="lamps" id="r1">
+        <img src="pic_bulboff.gif">
+        <img src="pic_bulboff.gif">
+        <img src="pic_bulboff.gif">
+    </div>
+
+    <button class="btn1" onclick="r1_satu()">Satu Persatu</button>
+    <button class="btn2" onclick="r1_semua()">Semua Lampu</button>
+</div>
+
+<div class="container">
+    <div class="section-title">Rangkaian 2</div>
+
+    <div class="lamps" id="r2">
+        <img src="pic_bulboff.gif">
+        <img src="pic_bulboff.gif">
+        <img src="pic_bulboff.gif">
+        <img src="pic_bulboff.gif">
+    </div>
+
+    <button class="btn1" onclick="r2_satu()">Satu Persatu</button>
+    <button class="btn2" onclick="r2_semua()">Semua Lampu</button>
+    <button class="btn3" onclick="r2_kelompok()">(a,b) & (c,d)</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
