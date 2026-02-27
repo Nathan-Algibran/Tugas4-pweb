@@ -13,12 +13,12 @@ Berikut adalah susunan direktori proyek:
 
 Tugas4-pweb/
 │
-├── index.html          # Struktur utama halaman web
-├── style.css           # File styling tampilan
-├── script.js           # Logika interaksi JavaScript
-├── pic_bulboff.gif     # Gambar lampu mati
-├── pic_bulbon.gif      # Gambar lampu menyala
-└── README.md           # Dokumentasi proyek
+├── index.html          
+├── style.css           
+├── script.js         
+├── pic_bulboff.gif     
+├── pic_bulbon.gif      
+└── README.md           
 
 # Penjelasan Kode
 
@@ -69,3 +69,4 @@ Proses dapat diulang untuk efek toggle
 Program ini menunjukkan penerapan dasar pengembangan web menggunakan HTML, CSS, dan JavaScript. Konsep yang diterapkan meliputi struktur halaman, pemisahan styling, manipulasi DOM, event handling, serta penggunaan percabangan logika.
 
 Walaupun sederhana, project ini mencerminkan pemahaman fundamental mengenai interaksi dinamis pada halaman web dan prinsip pemisahan struktur, tampilan, dan logika dalam pengembangan aplikasi berbasis web.
+
